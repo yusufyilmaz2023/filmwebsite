@@ -1,13 +1,3 @@
-<h1>Ornek Film Sitesi</h1>
-
-Kodlar herkese açıktır. Dileyen Dilediği gibi kullanabilir.
-
-<h2>Kullanılan Teknoloji</h2>
-
-HTML
-Css
-Java Script
-
-<h2>Ekran Görüntüsü</h2>
-
-![](film.gif)
+# 7-sezon-haftaici-html-css-admin-panali
+![ezgif com-video-to-gif (1)](https://github.com/Udemig/7-sezon-haftaici-html-css-admin-panali/assets/123208180/abea4d53-c78a-4a6a-8265-442de0b44d8d)
+# gelirgidersatis

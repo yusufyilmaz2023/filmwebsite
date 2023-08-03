@@ -1,334 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Film Sitesi</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-<body>
-    <!--    navbar start    -->
-<div class ="navbar" >
-    <div    class="navbar-wrapper" >
-        <div class="logo-wrapper"> 
-                <h1 class="logo"> LOGO  </h1>
-        </div>
-        <div class="menu-container">
-                <ul class="menu-list">
-                       <li class="menu-list-item active">Ana Sayfa</li> 
-                       <li class="menu-list-item">Filmler</li> 
-                       <li class="menu-list-item">Diziler</li> 
-                       <li class="menu-list-item">Listem</li>
-                       <li class="menu-list-item">Popüler</li> 
-                </ul>
-        </div>       
-<div class="profile-container">
-    <img class="profile-picture" src="img/profile.jpg" alt="">
-        <div class="profile-text-container">
-        <span class="profile-text">Hesabım</span>
-        <i class="bi bi-caret-down-fill"></i>
-        </div>
-    <div class="toggle">
-        <i class="bi bi-moon-fill toggle-icon"></i>
-        <i class="bi bi-brightness-high-fill toggle-icon"></i>
-        <div class="toggle-ball"></div>
-    </div>
-    </div>
-</div>
-</div>
-    <!--    navbar end    -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--    sidebar start    -->
+    <!--Icon Paketi-->
 
-<div class="sidebar">
-</div>
-     <div class="sidebar">
-        <i class="bi bi-search"></i>
-        <i class="bi bi-house-door-fill"></i>
-        <i class="bi bi-people-fill"></i>
-        <i class="bi bi-bookmarks-fill"></i>
-        <i class="bi bi-hourglass-top"></i>
-        <i class="bi bi-cart-fill"></i>
-        <i class="bi bi-gear-fill"></i>
-    </div>
-      <!--    sidebar end    -->
-      <!--    content start    -->
+    <!--Stil Dosyası-->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
     <div class="container">
-        <!--?  featured  content start    -->
-        <div class="content-wrapper"></div>
-            <div class="featured-content">
-                <img class= "featured tittle" src="img/spiderman-title.png" alt="">
-                <p class= "featured-des"> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas sequi cumque quam at natus odit dicta vero quod velit tempora tempore numquam maiores eius in culpa voluptatem magni, perspiciatis, aliquid nihil assumenda totam! Ratione deleniti reiciendis et illum earum accusamus, asperiores rerum officia aliquid atque fugit tenetur, quos dolor eius.
-                     </p>
-                <div class= "featured-buttons">
-                    <button class="play-button">
-                         <i class="bi bi-play-circle"></i>
-                        Oynat
-                    </button>      
-                        <button class="info-button">
-                            <i class="bi bi-info-circle"></i>
-                        Daha Fazla Bilgi
-                    </button>      
-                </div>
-                </div> 
-            </div>
-             <div class="movie-list-filter">
-                   <select >
-                        <option >Aksiyon</option>
-                        <option >Animasyon</option>
-                        <option >Belgesel</option>
-                        <option >Komedi</option>
-                        <option >Bilim Kurgu</option>
-                   </select> 
-                </div>
-        <!--?   featured content end    -->
-<!--    content end    -->
-<!--    movie list start    -->
-    <div class="movie-list-container">
-            <h1 class="movie-list-title">Popüler</h1>   
-            <div class="movie-list-wrapper">
-                <ul class="movie-list">
-                    <li class="movie-item">
-                         <img class="movie-item-img" src="img/f1.jpg" alt="">   
-                         <div class="movie-item-info">
-                            <span class="movie-item-title">SPIDER-MAN</span>
-                            <div class="movie-item-buttons">
-                                <i class="bi bi-play-circle-fill"></i>
-                                <i class="bi bi-hand-thumbs-up-fill"></i>
-                                <i class="bi bi-hand-thumbs-down-fill"></i>
-                                <i class="bi bi-plus-circle-fill"></i>
-                            </div>
-                         </div>
-                    </li>
-                    <li class="movie-item">
-                        <img class="movie-item-img" src="/img/f2.jpg" alt="">   
-                        <div class="movie-item-info">
-                           <span class="movie-item-title">HULK</span>
-                           <div class="movie-item-buttons">
-                               <i class="bi bi-play-circle-fill"></i>
-                               <i class="bi bi-hand-thumbs-up-fill"></i>
-                               <i class="bi bi-hand-thumbs-down-fill"></i>
-                               <i class="bi bi-plus-circle-fill"></i>
-                           </div>
-                        </div>
-                   </li>
-                   <li class="movie-item">
-                    <img class="movie-item-img" src="img/f3.jpg" alt="">   
-                    <div class="movie-item-info">
-                       <span class="movie-item-title">G.O.R.A.</span>
-                       <div class="movie-item-buttons">
-                           <i class="bi bi-play-circle-fill"></i>
-                           <i class="bi bi-hand-thumbs-up-fill"></i>
-                           <i class="bi bi-hand-thumbs-down-fill"></i>
-                           <i class="bi bi-plus-circle-fill"></i>
-                       </div>
-                    </div>
-               </li>
-               <li class="movie-item">
-                <img class="movie-item-img" src="img/f4.jpg" alt="">   
-                <div class="movie-item-info">
-                   <span class="movie-item-title">DAREDEVIL</span>
-                   <div class="movie-item-buttons">
-                       <i class="bi bi-play-circle-fill"></i>
-                       <i class="bi bi-hand-thumbs-up-fill"></i>
-                       <i class="bi bi-hand-thumbs-down-fill"></i>
-                       <i class="bi bi-plus-circle-fill"></i>
-                   </div>
-                </div>
-           </li>
-        </li>
-        <li class="movie-item">
-         <img class="movie-item-img" src="img/f5.jpg" alt="">   
-         <div class="movie-item-info">
-            <span class="movie-item-title">HOBBIT</span>
-            <div class="movie-item-buttons">
-                <i class="bi bi-play-circle-fill"></i>
-                <i class="bi bi-hand-thumbs-up-fill"></i>
-                <i class="bi bi-hand-thumbs-down-fill"></i>
-                <i class="bi bi-plus-circle-fill"></i>
-            </div>
-         </div>
-    </li>               </li>
-    <li class="movie-item">
-     <img class="movie-item-img" src="img/f6.jpg" alt="">   
-     <div class="movie-item-info">
-        <span class="movie-item-title">AROG</span>
-        <div class="movie-item-buttons">
-            <i class="bi bi-play-circle-fill"></i>
-            <i class="bi bi-hand-thumbs-up-fill"></i>
-            <i class="bi bi-hand-thumbs-down-fill"></i>
-            <i class="bi bi-plus-circle-fill"></i>
+      <!--Sol Aside Alanı Bailangıç-->
+      <aside id="aside-bar">
+        <!--Aside alanı Logo yazı ve kapatma buton olan yapı-->
+        <div class="top">
+          <!--Logo ve Yazı bulunan kutu-->
+          <div class="logo">
+            <img src="./images/logo.png" alt="" />
+            <h2>FC <span class="danger">CODER</span></h2>
+          </div>
+          <!--Kapatma butonu-->
+          <div class="close" id="close-btn">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
         </div>
-     </div>
-</li>
-                </ul>
-                <i class="bi bi-chevron-right arrow"></i>
-            </div>
-    </div>
-    <div class="movie-list-container">
-        <h1 class="movie-list-title">Gündemdekiler</h1>   
-        <div class="movie-list-wrapper">
-            <ul class="movie-list">
-                <li class="movie-item">
-                     <img class="movie-item-img" src="img/f1.jpg" alt="">   
-                     <div class="movie-item-info">
-                        <span class="movie-item-title">SPIDER-MAN</span>
-                        <div class="movie-item-buttons">
-                            <i class="bi bi-play-circle-fill"></i>
-                            <i class="bi bi-hand-thumbs-up-fill"></i>
-                            <i class="bi bi-hand-thumbs-down-fill"></i>
-                            <i class="bi bi-plus-circle-fill"></i>
-                        </div>
-                     </div>
-                </li>
-                <li class="movie-item">
-                    <img class="movie-item-img" src="/img/f2.jpg" alt="">   
-                    <div class="movie-item-info">
-                       <span class="movie-item-title">HULK</span>
-                       <div class="movie-item-buttons">
-                           <i class="bi bi-play-circle-fill"></i>
-                           <i class="bi bi-hand-thumbs-up-fill"></i>
-                           <i class="bi bi-hand-thumbs-down-fill"></i>
-                           <i class="bi bi-plus-circle-fill"></i>
-                       </div>
-                    </div>
-               </li>
-               <li class="movie-item">
-                <img class="movie-item-img" src="img/f3.jpg" alt="">   
-                <div class="movie-item-info">
-                   <span class="movie-item-title">G.O.R.A.</span>
-                   <div class="movie-item-buttons">
-                       <i class="bi bi-play-circle-fill"></i>
-                       <i class="bi bi-hand-thumbs-up-fill"></i>
-                       <i class="bi bi-hand-thumbs-down-fill"></i>
-                       <i class="bi bi-plus-circle-fill"></i>
-                   </div>
-                </div>
-           </li>
-           <li class="movie-item">
-            <img class="movie-item-img" src="img/f4.jpg" alt="">   
-            <div class="movie-item-info">
-               <span class="movie-item-title">DAREDEVIL</span>
-               <div class="movie-item-buttons">
-                   <i class="bi bi-play-circle-fill"></i>
-                   <i class="bi bi-hand-thumbs-up-fill"></i>
-                   <i class="bi bi-hand-thumbs-down-fill"></i>
-                   <i class="bi bi-plus-circle-fill"></i>
-               </div>
-            </div>
-       </li>
-    </li>
-    <li class="movie-item">
-     <img class="movie-item-img" src="img/f5.jpg" alt="">   
-     <div class="movie-item-info">
-        <span class="movie-item-title">HOBBIT</span>
-        <div class="movie-item-buttons">
-            <i class="bi bi-play-circle-fill"></i>
-            <i class="bi bi-hand-thumbs-up-fill"></i>
-            <i class="bi bi-hand-thumbs-down-fill"></i>
-            <i class="bi bi-plus-circle-fill"></i>
+
+        <!--Side Bar başalngıç-->
+
+        <div class="sidebar">
+          <a href="">
+            <i class="fa-solid fa-border-all"></i>
+            <h3>Kontrol Paneli</h3>
+          </a>
+
+          <a href="" class="active">
+            <i class="fa-regular fa-user"></i>
+            <h3>Müşteriler</h3>
+          </a>
+
+          <a href="./orders.html">
+            <i class="fa-regular fa-compass"></i>
+            <h3>Siparişler</h3>
+          </a>
+
+          <a href="">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Analizler</h3>
+          </a>
+
+          <a href="">
+            <i class="fa-regular fa-envelope"></i>
+            <h3>Mesajlar</h3>
+            <span class="message-count">10</span>
+          </a>
+
+          <a href="">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+            <h3>Çıkış</h3>
+          </a>
         </div>
-     </div>
-</li>               </li>
-<li class="movie-item">
- <img class="movie-item-img" src="img/f6.jpg" alt="">   
- <div class="movie-item-info">
-    <span class="movie-item-title">AROG</span>
-    <div class="movie-item-buttons">
-        <i class="bi bi-play-circle-fill"></i>
-        <i class="bi bi-hand-thumbs-up-fill"></i>
-        <i class="bi bi-hand-thumbs-down-fill"></i>
-        <i class="bi bi-plus-circle-fill"></i>
-    </div>
- </div>
-</li>
-            </ul>
-            <i class="bi bi-chevron-right arrow"></i>
+      </aside>
+
+      <!--aside alanı bitiş-->
+
+      <!--Main alanı başlangıç-->
+
+      <main>
+        <h1>Kontrol Paneli</h1>
+        <div class="date">
+          <input type="date" />
         </div>
-</div><div class="movie-list-container">
-    <h1 class="movie-list-title">Yeni Çıkanlar</h1>   
-    <div class="movie-list-wrapper">
-        <ul class="movie-list">
-            <li class="movie-item">
-                 <img class="movie-item-img" src="img/f1.jpg" alt="">   
-                 <div class="movie-item-info">
-                    <span class="movie-item-title">SPIDER-MAN</span>
-                    <div class="movie-item-buttons">
-                        <i class="bi bi-play-circle-fill"></i>
-                        <i class="bi bi-hand-thumbs-up-fill"></i>
-                        <i class="bi bi-hand-thumbs-down-fill"></i>
-                        <i class="bi bi-plus-circle-fill"></i>
-                    </div>
-                 </div>
-            </li>
-            <li class="movie-item">
-                <img class="movie-item-img" src="/img/f2.jpg" alt="">   
-                <div class="movie-item-info">
-                   <span class="movie-item-title">HULK</span>
-                   <div class="movie-item-buttons">
-                       <i class="bi bi-play-circle-fill"></i>
-                       <i class="bi bi-hand-thumbs-up-fill"></i>
-                       <i class="bi bi-hand-thumbs-down-fill"></i>
-                       <i class="bi bi-plus-circle-fill"></i>
-                   </div>
-                </div>
-           </li>
-           <li class="movie-item">
-            <img class="movie-item-img" src="img/f3.jpg" alt="">   
-            <div class="movie-item-info">
-               <span class="movie-item-title">G.O.R.A.</span>
-               <div class="movie-item-buttons">
-                   <i class="bi bi-play-circle-fill"></i>
-                   <i class="bi bi-hand-thumbs-up-fill"></i>
-                   <i class="bi bi-hand-thumbs-down-fill"></i>
-                   <i class="bi bi-plus-circle-fill"></i>
-               </div>
+        <div class="insights">
+          <!--Satışlar -->
+          <div class="sales">
+            <i class="fa-solid fa-chart-line"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Toplam Satışlar</h3>
+                <h1>50.000$</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">80%</div>
+              </div>
             </div>
-       </li>
-       <li class="movie-item">
-        <img class="movie-item-img" src="img/f4.jpg" alt="">   
-        <div class="movie-item-info">
-           <span class="movie-item-title">DAREDEVIL</span>
-           <div class="movie-item-buttons">
-               <i class="bi bi-play-circle-fill"></i>
-               <i class="bi bi-hand-thumbs-up-fill"></i>
-               <i class="bi bi-hand-thumbs-down-fill"></i>
-               <i class="bi bi-plus-circle-fill"></i>
-           </div>
+            <small class="text-muted">Son 24 saat</small>
+          </div>
+
+          <!--Satışlar Bitiş -->
+
+          <!--exepnseswe-->
+          <div class="expenses">
+            <i class="fa-solid fa-paper-plane"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Toplam Giderler</h3>
+                <h1>250.000$</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">62%</div>
+              </div>
+            </div>
+            <small class="text-muted">Son 24 saat</small>
+          </div>
+
+          <!--expense Bitiş -->
+
+          <!--Income-->
+          <div class="income">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            <div class="middle">
+              <div class="left">
+                <h3>Toplam Gelirler</h3>
+                <h1>250.000$</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">44%</div>
+              </div>
+            </div>
+            <small class="text-muted">Son 24 saat</small>
+          </div>
+
+          <!--incoem Bitiş -->
         </div>
-   </li>
-</li>
-<li class="movie-item">
- <img class="movie-item-img" src="img/f5.jpg" alt="">   
- <div class="movie-item-info">
-    <span class="movie-item-title">HOBBIT</span>
-    <div class="movie-item-buttons">
-        <i class="bi bi-play-circle-fill"></i>
-        <i class="bi bi-hand-thumbs-up-fill"></i>
-        <i class="bi bi-hand-thumbs-down-fill"></i>
-        <i class="bi bi-plus-circle-fill"></i>
+      </main>
+
+      <!--Right Bar-->
+
+      <div class="right">
+        <div class="top">
+          <button id="open-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="profile">
+            <div class="info">
+              <p>Selam , <b>Hasan</b></p>
+              <small class="text-muted">Admin</small>
+            </div>
+
+            <div class="profile-photo">
+              <img src="./images/profile-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="recent-updates">
+          <h1>Son Yenilikler</h1>
+          <div class="updates">
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-2.jpg" alt="" />
+              </div>
+              <div class="message">
+                <p><b>Mehmet Can</b> Laptop Sipariş verdi</p>
+                <small class="text-muted">2 dakika önce</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-3.jpg" alt="" />
+              </div>
+              <div class="message">
+                <p><b>Deniz Yilmaz</b> Macbook Sipariş verdi</p>
+                <small class="text-muted">2 dakika önce</small>
+              </div>
+            </div>
+
+            <div class="update">
+              <div class="profile-photo">
+                <img src="./images/profile-4.jpg" alt="" />
+              </div>
+              <div class="message">
+                <p><b>Gamze Cansiz</b> Mouse Sipariş verdi</p>
+                <small class="text-muted">2 dakika önce</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
- </div>
-</li>               </li>
-<li class="movie-item">
-<img class="movie-item-img" src="img/f6.jpg" alt="">   
-<div class="movie-item-info">
-<span class="movie-item-title">AROG</span>
-<div class="movie-item-buttons">
-    <i class="bi bi-play-circle-fill"></i>
-    <i class="bi bi-hand-thumbs-up-fill"></i>
-    <i class="bi bi-hand-thumbs-down-fill"></i>
-    <i class="bi bi-plus-circle-fill"></i>
-</div>
-</div>
-</li>
-        </ul>
-        <i class="bi bi-chevron-right arrow"></i>
-    </div>
-</div>
-</div>
-<!--    movie list end    -->
-    <script src="script.js"></script>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>
